@@ -1,0 +1,29 @@
+{
+  "produtos": [
+    {
+      "id": "1",
+      "descricao": "Luffy Action Figure",
+      "preco": "800,99",
+      "imagem": "https://m.media-amazon.com/images/I/81riSPx7-2L._AC_UF894,1000_QL80_.jpg",
+      "type": ""
+    },
+    {
+      "id": "2",
+      "descricao": "Venom Action Figure",
+      "preco": "854,99",
+      "imagem": "https://brincamundo.com.br/wp-content/uploads/2023/04/action-figure-venom.webp"
+    },
+    {
+      "id": "3",
+      "descricao": "Madara Action Figure",
+      "preco": "700,20",
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_728962-MLB53377553748_012023-O.webp"
+    },
+    {
+      "id": "4",
+      "descricao": "Roronoa Zoro Action Figure",
+      "preco": "900,00",
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_975645-MLB72120455245_102023-O.webp"
+    }
+  ]
+}

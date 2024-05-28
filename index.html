@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geek</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.css"
+        integrity="sha512-U9Y1sGB3sLIpZm3ePcrKbXVhXlnQNcuwGQJ2WjPjnp6XHqVTdgIlbaDzJXJIAuCTp3y22t+nhI4B88F/5ldjFA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <header>
+        <i class="fa-solid fa-heart-pulse fa-beat-fade"></i>
+        <i class="fa-solid fa-heart-pulse fa-beat-fade"></i>
+        <i class="fa-solid fa-heart-pulse fa-beat-fade"></i>
+        <h1>Alura Challenger Geek</h1>
+
+    </header>
+
+    <main>
+        <div class="product">
+            <h3>MEUS PRODUTOS:</h3>
+
+            <div class="cards" data-lista></div>
+
+
+        </div>
+
+        <div class="register">
+            <h3>ADICIONAR<br>PRODUTO:</h3>
+            <form data-formulario>
+                <div class="input_box">
+                    <input type="text" placeholder="Nome..." name="nome" id="nome" data-nome required />
+                    <input type="number" placeholder="Valor..." name="valor" id="valor" data-valor required />
+                    <input type="text" placeholder="Imagem URL..." name="imagem" id="url" data-url required />
+                </div>
+                <div class="button_box">
+                    <button class="button" type="submit">
+                        <div class="blob1"></div>
+                        <div class="blob2"></div>
+                        <div class="inner">Cadastar</div>
+                    </button>
+                    <button class="button" type="reset">
+                        <div class="blob1"></div>
+                        <div class="blob2"></div>
+                        <div class="inner">Limpar</div>
+                    </button>
+
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="title">
+            <i class="fa-solid fa-heart-pulse fa-beat-fade"></i>
+            <i class="fa-solid fa-heart-pulse fa-beat-fade"></i>
+            <i class="fa-solid fa-heart-pulse fa-beat-fade"></i>
+            <h1>Alura Challenger Geek</h1>
+        </div>
+        <p>DESENVOLVIDO POR IGOR MORAES <a href="https://github.com/IgorMoraess" target="_blank"><i
+                    class="fa-brands fa-github"></i></a></p>
+    </footer>
+
+    <script src="assets/js/mostrarProdutos.js" type="module"></script>
+    <script src="assets/js/criarProduto.js" type="module"></script>
+</body>
+
+</html>
